@@ -12,6 +12,6 @@ package org.macroxinux.mesh.api;
  */
 public interface Item extends Node {
     @Override
-    String get();
+    String getContent();
     
 }

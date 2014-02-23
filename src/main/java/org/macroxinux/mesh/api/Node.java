@@ -14,6 +14,6 @@ import java.io.Serializable;
  */
 public abstract interface Node extends Serializable {
     
-    Object get();
+    Object getContent();
     
 }

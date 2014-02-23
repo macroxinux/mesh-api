@@ -16,7 +16,7 @@ import java.util.Map;
 public interface Line extends Node {
     
     @Override 
-    Iterator<Map<Edge, Node>> get();
+    Iterator<Map<Edge, Node>> getContent();
     
     
     

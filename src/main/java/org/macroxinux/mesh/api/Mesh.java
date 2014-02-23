@@ -14,6 +14,6 @@ import java.util.Map;
  */
 public interface Mesh extends Node {
     @Override
-    Map<Line, Double> get();
+    Map<Line, Double> getContent();
         
 }

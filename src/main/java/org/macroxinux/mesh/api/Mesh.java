@@ -12,7 +12,7 @@ import java.util.Map;
  *
  * @author drew
  */
-public interface Mesh extends Node {
+public interface Mesh extends MeshObject {
     @Override
     Map<Line, Double> getContent();
         

@@ -17,8 +17,8 @@ import java.io.Serializable;
  */
 public abstract interface Edge extends Serializable {
 
-    Node getFrom();
-    Node getTo();
+    MeshObject getFrom();
+    MeshObject getTo();
     
     
 }

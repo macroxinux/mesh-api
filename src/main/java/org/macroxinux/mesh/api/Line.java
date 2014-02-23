@@ -13,10 +13,10 @@ import java.util.Map;
  *
  * @author drew
  */
-public interface Line extends Node {
+public interface Line extends MeshObject {
     
     @Override 
-    Iterator<Map<Edge, Node>> getContent();
+    Iterator<Map<Edge, MeshObject>> getContent();
     
     
     

@@ -10,7 +10,7 @@ package org.macroxinux.mesh.api;
  *
  * @author drew
  */
-public interface Item extends Node {
+public interface Item extends MeshObject {
     @Override
     String getContent();
     

@@ -12,7 +12,7 @@ import java.io.Serializable;
  *
  * @author drew
  */
-public abstract interface Node extends Serializable {
+public abstract interface MeshObject extends Serializable {
     
     Object getContent();
     
